@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  font-family: 'Ceviche One', cursive;
+  font-size: 72px;
+  color: #FFDE00;
+  border: 24px;
+  border-width: 24px;
+  border-color: black;
+}

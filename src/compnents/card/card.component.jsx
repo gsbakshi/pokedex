@@ -5,10 +5,9 @@ export const Card = props => (
     <div className='card-container'>
         <img
             alt={props.pokemon.name}
-            // src={ `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${props.i}.png` }
-            // src={ `https://robohash.org/${props.pokemon.id}/?set=set2&size=180x180` }
+            src={ `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${props.pokemon.id}.png` }
         />
         <h2> { props.pokemon.name } </h2>
-        {/* <p>{ props.pokemon.email }</p> */}
+        {/* <p>{ props.pokemon.forms }</p> */}
     </div>
 );
